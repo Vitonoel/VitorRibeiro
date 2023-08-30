@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-image: url(images/body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 790px;
+}
+div{
+    position: relative;
+    float: left;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color:#004236;
+}
+nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.icon{
+    width: 100px;
+    height: 80px;
+    background-color: rgb(190, 204, 195);
+}
+li 
+{ 
+    line-height: 30px;
+    display: inline;
+}
+li a {
+    font-size: large;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 100px;
+    float: left;
+
+}
+.menu{
+    padding: 0px;
+    background-color: green;
+}
+li a:hover{
+    background: aliceblue;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.5s;
+}
+img .fundo{
+    width:100%;
+    height:677px;
+}
+h1{
+    text-transform: uppercase;
+    color:rgb(49, 72, 58);
+    position: relative;
+    width: 1481px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 250px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-weight: 1000px;
+}
+.icon img{
+    margin-top: 5px;
+    margin-left: -12px;
+    
+}
+footer{
+    width: 100%;
+    background-color: #004236;
+    text-align: center;
+    color:aliceblue;
+    position: absolute;
+    height: 30px;
+    bottom: 0px;
+} 
+/*celular*/
+@media(max-width: 450px){
+    *{ margin: 0px;
+        padding: 0px;
+    }
+    #container{
+        width: 450px;
+        height: 109vh;
+    }
+    h1{
+        margin-top: 80px;
+        font-size: 60px;
+        width: 400px;
+    }
+    .top{
+        width: 450px;
+    }
+    .icon{
+        width: 80px;
+    }
+    .icon img{
+        width: 95px;
+        margin-top: 8px;
+        margin-left:-8px;
+    }
+    li a {
+        margin-left: 2px;
+        font-size: 15px;
+    }
+    footer{
+        width: 450px;
+        background-color: #004236;
+        position: absolute;
+        bottom: 0px;
+    }
+}
