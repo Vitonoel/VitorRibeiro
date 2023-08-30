@@ -3,7 +3,7 @@
     padding: 0;
 }
 #container{
-    background-image: url(body.jpg);
+    background-image: url(images/body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
