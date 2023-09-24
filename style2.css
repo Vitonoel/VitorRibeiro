@@ -1,0 +1,338 @@
+* {
+    /*css para a aba modelos*/
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#container {
+    background-image: url(images/body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    background-color: rgb(170, 170, 169);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #035647;
+    border-radius: 3px;
+}
+
+div {
+    position: relative;
+    float: left;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    background-color: #004236;
+}
+
+nav {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.icon {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(190, 204, 195);
+}
+
+li {
+    line-height: 30px;
+    display: inline;
+}
+
+li a {
+    font-size: 15px;
+    padding-top: 0px;
+    margin-top: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 100px;
+    float: left;
+}
+
+.menu {
+    padding: 0px;
+    background-color: green;
+}
+
+li a:hover {
+    text-decoration-line: underline;
+    color: rgb(254, 249, 249);
+}
+
+.language a:hover {
+    background: none;
+    border-radius: 0px;
+    color: #f4f5f4;
+    transition: 0.5s;
+}
+
+.language1 a:hover {
+    background: none;
+    border-radius: 0px;
+    color: #f4f5f4;
+    transition: 0.5s;
+}
+
+.language a {
+    margin-left: 45%;
+    font-size: 14px;
+    padding-right: 10px;
+    border-right: 1px solid;
+}
+
+.language1 a {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.ativa {
+    text-decoration-line: underline;
+    color: rgb(254, 249, 249);
+}
+
+img .fundo {
+    width: 100%;
+    height: 877px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(63, 94, 75);
+    position: relative;
+    width: 1481px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 235px;
+    font-size: 60px;
+    font-weight: 1000px;
+}
+
+.icon img {
+    margin-top: 5px;
+    margin-left: -12px;
+}
+
+.imgp {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.imgg {
+    border-radius: 0px 10px 10px 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: #004236;
+    text-align: center;
+    color: aliceblue;
+    position: absolute;
+    height: 5vh;
+    bottom: 0px;
+}
+
+.historia {
+    background-color: rgba(240, 248, 255, 0.741);
+    margin-top: 3%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.seta {
+    bottom: 15%;
+    position: fixed;
+    text-decoration: none;
+}
+
+.seta img {
+    position: absolute;
+    width: 50px;
+}
+
+h5 {
+    font-family: 'Yeseva One', cursive;
+    margin-left: 2%;
+    font-size: 25px;
+    text-decoration: underline #004236;
+}
+
+.top1 {
+    width: 100%;
+    background-color: #004236c2;
+}
+
+.box {
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.616);
+    margin: 5% 0px 5% 10%;
+    width: 80%;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+.box-b {
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.673);
+    margin: 4% 0px 5% 10%;
+    width: 80%;
+    height: 300px;
+    font-size: 2vw;
+    font-family: 'Amatic SC', cursive;
+}
+
+p {
+    margin: 20px;
+    margin-right: 40px;
+    text-align: justify;
+}
+
+.titulo {
+    background-image: url(images/amazon.jpeg);
+    margin: 4% 0px 5% 10%;
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #f4f5f4;
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Arima', cursive;
+    margin-top: 55px;
+}
+
+
+/*fim do home/ basico*/
+
+
+/*celular iphone xr*/
+
+@media(max-width: 450px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    #container {
+        background-image: url(images/cell.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        width: 450px;
+    }
+    h1 {
+        color: #f4f5f4;
+        margin-top: 80px;
+        font-size: 60px;
+        width: 400px;
+    }
+    .top {
+        width: 450px;
+    }
+    .icon {
+        width: 0px;
+    }
+    .icon img {
+        display: none;
+    }
+    li a {
+        display: block;
+        margin-top: 30px;
+        margin-left: 13px;
+        font-size: 19px;
+    }
+    .imgp {
+        border-radius: 20px 20px 0px 0px;
+        width: 320px;
+        height: 260px;
+    }
+    .imgg {
+        border-radius: 0px 0px 20px 20px;
+        width: 330px;
+        height: 190px;
+    }
+    .box {
+        display: grid;
+        background-color: rgba(240, 248, 255, 0.616);
+        margin: 20px 0px 50px 70px;
+        width: 320px;
+        font-size: 5vw;
+        border-radius: 20px;
+        font-family: 'Amatic SC', cursive;
+    }
+    .box-b {
+        display: grid;
+        background-color: rgba(240, 248, 255, 0.673);
+        margin: 0px 0px 95px 65px;
+        border-radius: 20px;
+        width: 330px;
+        height: 300px;
+        font-size: 5vw;
+        font-family: 'Amatic SC', cursive;
+    }
+    .historia {
+        background-color: rgba(240, 248, 255, 0.741);
+        margin-top: 3%;
+        font-size: 17px;
+        margin-left: 7%;
+        margin-bottom: 15%;
+        width: 80%;
+        font-family: 'Lora', serif;
+        border-radius: 10px;
+    }
+    .seta {
+        width: 20px;
+        margin: 0px;
+    }
+    p {
+        margin: 10px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+    h2 {
+        font-size: 5vw;
+        margin-top: 20px;
+    }
+    .titulo {
+        background-image: url(images/amazon.jpeg);
+        margin: 20px 0px 0px 25px;
+        width: 90%;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .language a {
+        font-size: 14px;
+        margin-left: 10px;
+        border-right: 1px solid;
+    }
+    .language1 a {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+    footer {
+        width: 100%;
+        background-color: #004236;
+        position: absolute;
+        bottom: 0px;
+    }
+}
